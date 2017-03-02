@@ -1,0 +1,14 @@
+Andrew Bissada
+
+FTP Username: abissada
+FTP Server: abissada.csatcofc.info
+FTP Server Port: 21
+SFTP Server Port: 22
+
+snow123@csatcofc.info
+
+
+DATABASE:
+=================
+Added the Database abissada_Customers
+Added user abissada_Bissada with password 1228@csatcofcinfo. 

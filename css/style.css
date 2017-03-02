@@ -1,0 +1,121 @@
+ul#navlist { font-family: sans-serif; }
+
+ul#navlist a
+{
+font-weight: bold;
+text-decoration: none;
+}
+
+ul#navlist, ul#navlist ul, ul#navlist li
+{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+}
+
+ul#navlist li { float: left; }
+
+ul#navlist li a
+{
+color: #ffffff;
+background-color: #6D929B;
+padding: 3px;
+border: 1px #ffffff outset;
+}
+
+ul#navlist li a:hover
+{
+color: #6D929B;
+background-color: #C1DAD7;
+width: 400px;
+}
+
+ul#navlist li a:active
+{
+color: #cccccc;
+background-color: #003366;
+border: 1px #ffffff inset;
+}
+
+ul#subnavlist { display: none; }
+ul#subnavlist li { float: none; }
+
+ul#subnavlist li a
+{
+padding: 0px;
+margin: 0px;
+}
+
+ul#navlist li:hover ul#subnavlist
+{
+display: block;
+position: absolute;
+font-size: 8pt;
+padding-top: 5px;
+}
+
+ul#navlist li:hover ul#subnavlist li a
+{
+display: block;
+width: 10em;
+border: none;
+padding: 2px;
+}
+
+ul#navlist li:hover ul#subnavlist li a:before 
+{ 
+content: " >> "; 
+}
+
+#content
+{
+clear:both;
+margin:25px 0px 0px 0px;
+}
+
+#inputAdd
+{
+float:left;
+margin:25px 0px 0px 0px;
+}
+
+table td
+{
+text-align:center;
+}
+
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+	color: #6D929B;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+}
+
+th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+td {
+	border-right: 0px solid #C1DAD7;
+	border-bottom: 0px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #6D929B;
+	text-align:left;
+}
+
+
+.alt {
+	background: #F5FAFA;
+	color: #B4AA9D;
+}
